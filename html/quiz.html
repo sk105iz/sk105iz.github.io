@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="../scripts/quiz.js" defer></script>
+    <div id="main-container">
+        <h1>Quiz</h1>
+        <h6 id="chapter-label"></h6>
+        <h6 id="number-correct"></h6>
+        <img src="../img/loading.png" alt="Loading image..." id="quiz-image">
+        <div id="button-group">
+            <button id="choice1" class="choice">Choice 1</button>
+            <button id="choice2" class="choice">Choice 2</button>
+            <button id="choice3" class="choice">Choice 3</button>
+            <button id="choice4" class="choice">Choice 4</button>
+        </div>
+        <p id="review" style="text-align: center;">Remember: Click on the correct answer again to progress to the next question!</p>
+        <div class="horizontal-btn-group">
+            <button id="back" class="navigationBtn">Back</button>
+            <button id="next" class="navigationBtn">Return to Chapter Select</button>
+        </div>
+    </div>
+</body>
+</html>

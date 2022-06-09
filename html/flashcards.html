@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="../scripts/flashcards.js" defer></script>
+    <div id="main-container">
+        <h1>Flashcards</h1>
+        <h6 id="chapter-label"></h6>
+        <h6 id="index"></h6>
+        <div class="horizontal">
+            <button id="backward" class="navigationBtn">Previous Term</button>
+            <div id="flashcard-container">
+                <div id="flashcard-clickable">
+                    <img src="../img/loading.png" alt="Loading image..." id="flashcard-image">
+                    <h1 id="flashcard-answer" style="text-align: center;">Answer</h1>
+                </div>
+                <h6 style="text-align: center;">Click to see the answer!</h6>
+            </div>
+            <button id="forward" class="navigationBtn">Next Term</button>
+        </div>
+        <div id="button-group">
+            <button id="next">Go to Quiz</button>
+            <button id="back">Back</button>
+        </div>
+    </div>
+</body>
+</html>
